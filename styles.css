@@ -6,7 +6,7 @@ body {
     width: 70%;
 }
 .imagen{
-    background: url("/img/johana.png");
+    background: url(/img/johana.png);
     background-position: right;
    /* background-repeat: no-repeat;*/
     background-size: cover;
@@ -21,7 +21,20 @@ body {
     height:105px;
     margin: auto;
     padding: 0;
-
+}
+.descargue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.btn-descarga {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #c82d2d;
+  margin: 10px;
+  
 }
 .cabecera{
     background: rgba(99, 137, 240, 0.564);
