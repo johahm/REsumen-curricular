@@ -6,7 +6,7 @@ body {
     width: 70%;
 }
 .imagen{
-    background: url("johana.png");
+    background: url(johana.png);
     background-position: right;
    /* background-repeat: no-repeat;*/
     background-size: cover;
